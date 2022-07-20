@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+    background: lavender;
+    font-family: 'Courier New', Courier, monospace;
+}
+.col-md-10 {
+    height: auto;
+    padding: 30px 0;
+}
+.bg-button {
+    background-color: rgba(243, 52, 125, 0.933);
+    border-radius: 30px;
+}
+.bg-signup {
+    background-color: rgba(243, 52, 125, 0.933);
+    border-radius: 30px; 
+}
+#login-form {
+    margin-left: 20px;
+    box-shadow: 0 10px 50px 0 white;
+}
+#signup-form {
+    background-color: rgba(243, 52, 125, 0.933);   
+}
+
+.signin-text {
+    text-decoration: none;
+    color: rgba(243, 52, 125, 0.933);
+}
+.signup-text {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+input[type="text"], input[type="password"] {
+   width: 350px;
+   margin-left: 20px;
+   margin-right: 20px;
+   background: lavender;
+   border: none;
+}
+input:focus {
+    outline: none;
+}
+input[type="checkbox"] {
+    margin-left: 25px;
+}
+@media (max-width: 768px){
+    #signup-form{
+        display: none;
+    }
+}
